@@ -2,7 +2,7 @@
 
 A powerful research assistant that leverages OpenAI's Agents SDK and Firecrawl's deep research capabilities to perform comprehensive web research on any topic and any question.
 
-![Deep Research Agent](./images/research_agent_image.png)
+![Deep Research Agent](./images/research_agent_image.PNG)
 
 ## Features
 
@@ -26,13 +26,10 @@ A powerful research assistant that leverages OpenAI's Agents SDK and Firecrawl's
 - Firecrawl API key
 - Required Python packages (see `requirements.txt`)
 
-## Installation
-
-1. Clone this repository:
-
+1. First make a virtual environment and activate it:
    ```bash
-   git clone  https://github.com/Shubhamsaboo/awesome-llm-apps.git
-   cd ai_agent_tutorials/ai_deep_research_agent
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
 2. Install the required packages:
